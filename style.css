@@ -1208,3 +1208,161 @@ footer p{font-size:11px;color:rgba(255,255,255,.35);margin-bottom:3px}
   /* Revenue diversity 3col */
   .rd-grid{grid-template-columns:repeat(3,1fr)}
 }
+
+/* ══════════════════════════════════════
+   INVESTOR THESIS SECTION
+══════════════════════════════════════ */
+
+/* 시장 근거 숫자 */
+.inv-market-nums{margin-bottom:36px}
+.imn-title{font-size:13px;font-weight:700;color:var(--k300);text-transform:uppercase;letter-spacing:.5px;margin-bottom:16px}
+.imn-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.imn-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:16px;transition:var(--t)}
+.imn-card.acc{background:rgba(140,125,88,.15);border-color:var(--k400)}
+.imn-n{font-family:var(--ff-num);font-size:clamp(22px,5vw,30px);font-weight:900;color:#fff;line-height:1;margin-bottom:4px}
+.imn-u{font-size:13px;font-weight:600;margin-left:2px}
+.imn-label{font-size:11px;font-weight:700;color:var(--k300);margin-bottom:6px}
+.imn-desc{font-size:10px;color:rgba(255,255,255,.78);line-height:1.6}
+
+/* SEO 전략 근거 */
+.inv-seo-basis{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-lg);padding:20px;margin-bottom:36px}
+.isb-hdr{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:14px}
+.isb-body{display:flex;flex-direction:column;gap:16px}
+.isb-pie{display:flex;gap:6px;margin-bottom:8px}
+.isb-seg{font-size:10px;font-weight:700;padding:8px 10px;border-radius:var(--r-xs);text-align:center;line-height:1.4}
+.isb-seg.google{background:#4285f4;color:#fff;flex:2}
+.isb-seg.naver{background:#03c75a;color:#fff;flex:2}
+.isb-seg.other{background:rgba(255,255,255,.15);color:rgba(255,255,255,.8);flex:1}
+.isb-note{font-size:10px;color:rgba(255,255,255,.6);margin-bottom:2px}
+.isb-text p{font-size:12px;color:rgba(255,255,255,.88);line-height:1.7;margin-bottom:10px}
+.isb-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.isb-tag{font-size:10px;font-weight:600;padding:3px 9px;background:rgba(140,125,88,.2);border:1px solid var(--k500);border-radius:var(--r-full);color:var(--k300)}
+.isb-url-ex{background:rgba(0,0,0,.25);border-radius:var(--r-xs);padding:12px}
+.isb-url-title{font-size:10px;font-weight:700;color:rgba(255,255,255,.6);margin-bottom:6px}
+.isb-url-ex code{display:block;font-size:10px;color:#86efac;padding:2px 0;font-family:monospace;line-height:1.6}
+
+/* 기업가치 제안 */
+.inv-valuation{margin-bottom:36px}
+.inv-val-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:16px}
+.inv-val-grid{display:flex;flex-direction:column;gap:14px}
+.inv-runway{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:18px}
+.inv-runway h4{font-size:13px;font-weight:700;color:#fff;margin-bottom:12px}
+.runway-calc{display:flex;flex-direction:column;gap:2px;margin-bottom:12px}
+.rc-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:12px;color:rgba(255,255,255,.85)}
+.rc-row strong{color:#fff;font-weight:700}
+.rc-row.tot{border-bottom:none;border-top:2px solid var(--k400);padding-top:8px;font-weight:700;color:#fff}
+.rc-row.tot strong{color:var(--k300);font-size:15px}
+.rc-div{text-align:center;font-size:18px;color:rgba(255,255,255,.3);padding:2px}
+.rc-warn{font-size:11px;color:rgba(255,255,255,.7);background:rgba(255,200,0,.08);border:1px solid rgba(255,200,0,.2);border-radius:var(--r-xs);padding:10px;line-height:1.6;margin-top:6px}
+.rc-warn strong{color:#fde68a}
+.rc-conclude{font-size:12px;font-weight:600;color:rgba(255,255,255,.9);text-align:center;padding:10px;background:rgba(140,125,88,.1);border-radius:var(--r-xs)}
+.rc-conclude strong{color:var(--k300)}
+.inv-val-table-wrap{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:18px}
+.inv-val-table-wrap h4{font-size:13px;font-weight:700;color:#fff;margin-bottom:12px}
+.inv-val-table{width:100%;border-collapse:collapse}
+.inv-val-table th{font-size:10px;font-weight:700;color:rgba(255,255,255,.5);text-transform:uppercase;padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left}
+.inv-val-table td{font-size:12px;color:rgba(255,255,255,.85);padding:8px;border-bottom:1px solid rgba(255,255,255,.06)}
+.val-num{font-family:var(--ff-num);font-weight:700;color:#fff;text-align:right}
+.val-hl td{background:rgba(140,125,88,.15)}
+.val-hl .val-num{color:var(--k300);font-size:14px}
+.val-basis{font-size:10px;color:rgba(255,255,255,.6);line-height:1.6;margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08)}
+
+/* 단계별 밸류 로드맵 */
+.inv-val-roadmap{margin-bottom:36px}
+.inv-vr-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:16px}
+.ivr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ivr-table{width:100%;border-collapse:collapse;min-width:520px}
+.ivr-table th{font-size:10px;font-weight:700;text-transform:uppercase;color:rgba(255,255,255,.5);padding:8px 10px;border-bottom:1.5px solid rgba(255,255,255,.12);text-align:left;white-space:nowrap}
+.ivr-table td{font-size:11px;color:rgba(255,255,255,.85);padding:10px;border-bottom:1px solid rgba(255,255,255,.06)}
+.ivr-table tr:last-child td{border-bottom:none}
+.ivr-current td{background:rgba(140,125,88,.12)}
+.ivr-badge{display:inline-block;font-size:10px;font-weight:700;padding:3px 8px;border-radius:var(--r-full);white-space:nowrap}
+.ivr-badge.seed{background:var(--k600);color:#fff}
+.ivr-badge.ext{background:#1e40af;color:#fff}
+.ivr-badge.prea{background:#065f46;color:#fff}
+.ivr-val{font-family:var(--ff-num);font-weight:800;color:var(--k300);font-size:13px;text-align:right;white-space:nowrap}
+
+/* 질문 데이터 전환 구조 */
+.inv-data-strategy{margin-bottom:36px}
+.ids-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:8px}
+.ids-note{font-size:11px;color:rgba(255,255,255,.78);line-height:1.6;margin-bottom:16px}
+.ids-funnel{display:flex;flex-direction:column;align-items:center;gap:0;margin-bottom:16px}
+.idf-step{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:12px 16px;width:100%;text-align:center;transition:var(--t)}
+.idf-step.pub{background:rgba(140,125,88,.12);border-color:var(--k500)}
+.idf-step.pub2{background:rgba(140,125,88,.18);border-color:var(--k400)}
+.idf-step.pub3{background:rgba(140,125,88,.24);border-color:var(--k300)}
+.idf-n{font-family:var(--ff-num);font-size:clamp(14px,4vw,18px);font-weight:900;color:#fff;margin-bottom:3px}
+.idf-l{font-size:11px;font-weight:700;color:var(--k300);margin-bottom:3px}
+.idf-d{font-size:10px;color:rgba(255,255,255,.72);line-height:1.5}
+.idf-arr{font-size:18px;color:rgba(255,255,255,.3);padding:4px 0;line-height:1}
+.ids-warning{font-size:11px;color:rgba(255,255,255,.85);background:rgba(255,200,0,.08);border:1px solid rgba(255,200,0,.2);border-radius:var(--r-md);padding:14px;line-height:1.7}
+.ids-warning strong{color:#fde68a}
+
+/* 개발 필요성 */
+.inv-dev-reason{margin-bottom:36px}
+.idr-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:10px}
+.idr-calc{font-size:11px;color:rgba(255,255,255,.85);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-xs);padding:12px;line-height:1.7;margin-bottom:14px}
+.idr-calc strong{color:#fff}
+.idr-modules{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.idrm{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-md);padding:12px}
+.idrm-ic{font-size:18px;margin-bottom:5px}
+.idrm-name{font-size:11px;font-weight:700;color:#fff;margin-bottom:3px}
+.idrm-why{font-size:10px;color:rgba(255,255,255,.72);line-height:1.5}
+
+/* 해외 벤치마크 */
+.inv-benchmark{margin-bottom:36px}
+.ibm-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:8px}
+.ibm-note{font-size:11px;color:rgba(255,255,255,.78);line-height:1.6;margin-bottom:16px}
+.ibm-cards{display:flex;flex-direction:column;gap:10px}
+.ibm-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:16px}
+.ibm-co{font-size:14px;font-weight:800;color:#fff;margin-bottom:4px}
+.ibm-val{font-family:var(--ff-num);font-size:16px;font-weight:900;color:var(--k300);margin-bottom:6px}
+.ibm-model{font-size:11px;color:rgba(255,255,255,.85);margin-bottom:3px}
+.ibm-raised{font-size:10px;color:rgba(255,255,255,.6);margin-bottom:6px}
+.ibm-nuvin{font-size:10px;font-weight:600;color:var(--o300);padding:5px 8px;background:rgba(140,125,88,.1);border-radius:var(--r-xs);border-left:2px solid var(--k400)}
+
+/* 법적 안전 가이드 */
+.inv-legal{margin-bottom:0}
+.ilg-title{font-size:13px;font-weight:700;color:var(--k300);margin-bottom:14px}
+.ilg-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.ilg-col{border-radius:var(--r-md);padding:14px;border:1.5px solid}
+.ilg-col.bad{background:rgba(163,48,48,.1);border-color:rgba(163,48,48,.3)}
+.ilg-col.good{background:rgba(5,95,70,.12);border-color:rgba(6,95,70,.3)}
+.ilg-col-hdr{font-size:12px;font-weight:700;margin-bottom:10px;color:#fff}
+.ilg-item{font-size:11px;color:rgba(255,255,255,.85);padding:5px 0;border-bottom:1px solid rgba(255,255,255,.06);line-height:1.5}
+.ilg-item:last-child{border-bottom:none}
+.ilg-note{font-size:11px;color:rgba(255,255,255,.78);line-height:1.7;padding:12px;background:rgba(255,255,255,.04);border-radius:var(--r-xs);border:1px solid rgba(255,255,255,.08)}
+.ilg-note strong{color:#fde68a}
+
+/* 월 매출 시나리오 */
+.rev-scenario{margin-bottom:16px;border-radius:var(--r-md);overflow:hidden;border:1px solid var(--n200)}
+.rs-hdr{font-size:12px;font-weight:700;padding:10px 14px;color:#fff}
+.rs-hdr.ph1{background:#1e3a8a}
+.rs-hdr.ph2{background:#065f46}
+.rs-hdr.ph3{background:#4a3e28}
+.rs-hdr.ph4{background:#1e2118}
+.rs-hdr span{font-weight:400;opacity:.85;font-size:11px;margin-left:6px}
+.rs-table{padding:4px 0}
+.rst-row{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;padding:6px 14px;border-bottom:1px solid var(--n200);font-size:11px}
+.rst-row:last-child{border-bottom:none}
+.rst-row.tot{background:var(--n50);font-weight:700}
+.rst-calc{color:var(--ink4);font-size:10px;text-align:right;min-width:80px}
+.rst-val{font-family:var(--ff-num);font-weight:700;color:var(--ink);font-size:11px;text-align:right;white-space:nowrap}
+.rst-tot{color:var(--k600);font-size:13px;text-align:right}
+
+/* 데스크탑 반응형 */
+@media(min-width:640px){
+  .imn-grid{grid-template-columns:repeat(3,1fr)}
+  .isb-body{flex-direction:row;gap:24px}
+  .isb-stat{flex:0 0 180px}
+  .inv-val-grid{flex-direction:row}
+  .inv-runway{flex:1}
+  .inv-val-table-wrap{flex:1}
+  .idr-modules{grid-template-columns:repeat(4,1fr)}
+  .ibm-cards{display:grid;grid-template-columns:1fr 1fr}
+}
+@media(min-width:900px){
+  .imn-grid{grid-template-columns:repeat(3,1fr)}
+  .rst-row{font-size:12px}
+  .rst-calc{min-width:160px}
+}
